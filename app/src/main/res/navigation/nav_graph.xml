@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@+id/graph_fragment_menu">
+    <fragment
+        android:id="@+id/graph_fragment_menu"
+        android:name="ar.scacchipa.animation.FragmentMenu"
+        android:label="Menu">
+        <action
+            android:id="@+id/action_graph_fragment_menu_to_graph_fragment_anim_drawable"
+            app:destination="@id/graph_fragment_anim_drawable" />
+        <action
+            android:id="@+id/action_graph_fragment_menu_to_graph_fragment_anim_drawable_with_transition"
+            app:destination="@id/graph_fragment_anim_drawable"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:exitAnim="@android:anim/slide_out_right"
+            app:popEnterAnim="@android:anim/slide_in_left"
+            app:popExitAnim="@android:anim/slide_out_right" />
+        <action
+            android:id="@+id/action_graph_fragment_menu_to_graph_fragment_poll"
+            app:destination="@id/graph_fragment_poll" />
+    </fragment>
+    <fragment
+        android:id="@+id/graph_fragment_anim_drawable"
+        android:name="ar.scacchipa.animation.FragmentAnimDrawable"
+        android:label="Animation Drawable"/>
+    <fragment
+        android:id="@+id/graph_fragment_poll"
+        android:name="ar.scacchipa.animation.FragmentPoll"
+        android:label="Poll"/>
+
+</navigation>
