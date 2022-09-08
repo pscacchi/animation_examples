@@ -54,6 +54,11 @@ class FragmentMenu: Fragment() {
         binding?.pollButton?.setOnClickListener {
             findNavController().navigate(R.id.action_graph_fragment_menu_to_graph_fragment_poll)
         }
+
+        binding?.endButton?.setOnClickListener {
+            findNavController().navigate(R.id.action_graph_fragment_menu_to_graph_fragment_end)
+        }
+
         return binding?.root
     }
 

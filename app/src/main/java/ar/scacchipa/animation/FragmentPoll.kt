@@ -55,3 +55,4 @@ class FragmentPoll: Fragment() {
         binding = null
     }
 }
+

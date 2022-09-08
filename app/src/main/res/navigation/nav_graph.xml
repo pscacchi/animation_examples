@@ -21,6 +21,9 @@
         <action
             android:id="@+id/action_graph_fragment_menu_to_graph_fragment_poll"
             app:destination="@id/graph_fragment_poll" />
+        <action
+            android:id="@+id/action_graph_fragment_menu_to_graph_fragment_end"
+            app:destination="@id/graph_fragment_end" />
     </fragment>
     <fragment
         android:id="@+id/graph_fragment_anim_drawable"
@@ -30,5 +33,9 @@
         android:id="@+id/graph_fragment_poll"
         android:name="ar.scacchipa.animation.FragmentPoll"
         android:label="Poll"/>
+    <fragment
+        android:id="@+id/graph_fragment_end"
+        android:name="ar.scacchipa.animation.FragmentEnd"
+        android:label="That's all"/>
 
 </navigation>
