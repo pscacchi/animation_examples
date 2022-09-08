@@ -10,7 +10,7 @@ import ar.scacchipa.animation.databinding.FragmentAnimDrawableBinding
 
 class FragmentAnimDrawable: Fragment() {
 
-    var binding: FragmentAnimDrawableBinding? = null
+    private var binding: FragmentAnimDrawableBinding? = null
 
     override fun onCreateView(
         inflater: LayoutInflater,

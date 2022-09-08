@@ -1,3 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Animation</string>
+    <string name="anim_drawable_description">"Animation view"</string>
+    <string name="stop_button_text">Stop</string>
+    <string name="start_button_text">Start</string>
+    <string name="bitmaps_button_text">Bitmaps</string>
+    <string name="fade_on_button_text">Fade on</string>
+    <string name="horizontal_button_text">Horizontal</string>
+    <string name="transition_button_text">Transition</string>
+    <string name="poll_button_text">Poll</string>
+    <string name="end_button_text">End</string>
+    <string name="poll_title">POLL"</string>
+    <string name="agree_button_text">AGREE</string>
+    <string name="disagree_button_text">DISAGREE</string>
+    <string name="agree_title">AGREE</string>
+    <string name="disagree_title">DISAGREE</string>
 </resources>

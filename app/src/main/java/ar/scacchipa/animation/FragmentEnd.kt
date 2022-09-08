@@ -52,9 +52,7 @@ class FragmentEnd: Fragment() {
                     }
                 } )
                 .into(imageView)
-
         }
-
         return binding?.root
     }
 

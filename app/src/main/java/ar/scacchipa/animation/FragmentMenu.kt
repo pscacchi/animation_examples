@@ -10,7 +10,7 @@ import ar.scacchipa.animation.databinding.FragmentMenuBinding
 
 class FragmentMenu: Fragment() {
 
-    var binding: FragmentMenuBinding? = null
+    private var binding: FragmentMenuBinding? = null
 
     override fun onCreateView(
         inflater: LayoutInflater,

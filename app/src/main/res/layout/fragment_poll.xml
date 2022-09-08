@@ -10,7 +10,7 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="POLL"
+        android:text="@string/poll_title"
         android:textColor="@color/black"
         android:textSize="36sp"
         android:textStyle="bold"
@@ -23,7 +23,7 @@
         android:id="@+id/agree_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="AGREE"
+        android:text="@string/agree_button_text"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/guideline4"
@@ -31,11 +31,11 @@
         app:layout_constraintTop_toTopOf="@+id/guideline3" />
 
     <Button
-        style="@style/noRipple"
         android:id="@+id/disagree_button"
+        style="@style/noRipple"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="DISAGREE"
+        android:text="@string/disagree_button_text"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
